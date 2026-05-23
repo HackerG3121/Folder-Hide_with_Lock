@@ -43,7 +43,7 @@ echo Enter password to UNLOCK the Private folder:
 set/p "password=> "
 
 REM Verify password
-if NOT "%password%"=="Giri3121@2007" goto FAIL
+if NOT "%password%"=="YOUR_PASSWORD" goto FAIL
 
 attrib -h -s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
 ren "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" Private
