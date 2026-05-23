@@ -48,14 +48,11 @@ cd folder-locker
 
 Open `folder-locker.bat` in a text editor and locate line 44:
 
-```batch
-if NOT "%password%"=="Giri3121@2007" goto FAIL
-```
 
-Replace `Giri3121@2007` with your custom password:
+Replace `YOUR_PASSWORD` with your custom password:
 
 ```batch
-if NOT "%password%"=="YourSecurePassword123" goto FAIL
+if NOT "%password%"=="YOUR_PASSWORD" goto FAIL
 ```
 
 **⚠️ Important**: Choose a strong password and remember it!
